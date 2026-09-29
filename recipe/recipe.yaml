@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.1.9
+  version: "0.1.13"
 
 package:
   name: qualibrate-config
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/q/qualibrate-config/qualibrate_config-${{ version }}.tar.gz
-  sha256: c96db4ccbc93b4ece69e031d7aed671b6f514be4254fd055a441a5355208b36d
+  sha256: b353c8986583177d86523adc5630144ca4a1fa9651d93ae17d406b91e9a16e7e
 
 build:
   noarch: python
